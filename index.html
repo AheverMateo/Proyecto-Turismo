@@ -15,18 +15,27 @@
 </head>
 <body>
     <header>
-
-        <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
-            <a class="navbar-brand pulse" href="#">CAC-Turismo</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-custom nav-size">
+            <!-- <a class="navbar-brand" href="#"><div class="logo">CAC-Turismo</div></a> -->
+            <a class="navbar-brand" href="#">
+                <div class="logo">
+                    <span>C</span><span>A</span><span>C</span>
+                    <span>-</span>
+                    <span>T</span><span>u</span><span>r</span><span>i</span><span>s</span><span>m</span><span>o</span>
+                </div>
+            </a>
+    
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button> <!-- Este botón es la hamburguesa para desplegar un menú en dispositivos pequeños-->
     
-            <div class="collapse navbar-collapse" id="navbarSupportedContent"> <!-- Este div collapse envuelve todo lo que se ocultará cuando se achique la pantalla -->
-                <ul class="navbar-nav ml-auto"> <!-- son elementos de la navbar, con el ml-auto te alinea todo hacia la derecha. -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Este div collapse envuelve todo lo que se ocultará cuando se achique la pantalla -->
+                <ul class="navbar-nav ml-auto">
+                    <!-- son elementos de la navbar, con el ml-auto te alinea todo hacia la derecha. -->
                     <li class="nav-item active"> <!-- la clase active te resalta la clase que se encuentra activa. -->
-                        <a class="nav-link pulse" href="#/tendencias">Lugares <span class="sr-only"></span></a>
+                        <a class="nav-link pulse" href="#/lugares">Lugares <span class="sr-only"></span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link pulse ml-lg-4 mr-lg-4" href="#/registrarse">Registrarse</a>
@@ -37,7 +46,6 @@
                 </ul>
             </div>
         </nav>
-    
         
     </header>
     
@@ -157,6 +165,14 @@
             </div>
             <button class="boton anterior" id="anterior">Anterior</button>  
             <button class="boton siguiente" id="siguiente">Siguiente</button>
+        </section>
+
+        <section data-aos="fade-up" class="buscadorContenedor">
+            <h2>¿Qué lugar estas buscando para visitar?</h2>
+            <div class="cajaBuscador">
+                <input type="text" placeholder="Buscar...">
+                <button>Buscar</button>
+            </div>
         </section>
     </main>
     <footer>
