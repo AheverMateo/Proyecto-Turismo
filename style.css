@@ -105,22 +105,32 @@ main{
     justify-content: center;
     background-image: linear-gradient(to bottom, #a9c6df, #8eb1cf, #749dc0, #5889b1, #3a76a2);
 }
+.lugares-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 
 .lugares{
-    width: 60vw;
+    width: 80vw;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
-   align-items: center;
-   column-gap: 8px;
+    justify-content: center;
+    align-content: center;
+   column-gap: 25px;
    row-gap: 50px;
 }
 
 .lugar{
     width:300px;
     height: 150px;
-    position: relative;
     overflow: hidden;
     border-radius: 10px;
 }
@@ -163,12 +173,11 @@ main{
 }
 
 .boton{
-    position: relative;
-    left: 19vw;
     border: 1px solid white;
     box-sizing: content-box;
     margin-top:50px;
     margin-left:20px;
+    margin-right: 20px;
     background-color:#4f9bb9;
     color: #ffffff;
     padding: 1rem 1rem;
