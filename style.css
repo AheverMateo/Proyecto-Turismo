@@ -99,6 +99,7 @@ a button{
 *{
     padding: 0;
     margin: 0;
+    list-style: none;
 }
 main{
     display: flex;
@@ -187,12 +188,12 @@ main{
     text-decoration: none;
     margin-bottom:60px;
      /* Agregar efecto de botón presionado */
-     transition: transform 0.3s, box-shadow 0.3s;
-     &:hover {
-         background-color: #4f9bb9;
-         transform: scale(0.95);
-         box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
-     }
+      transition: transform 0.3s, box-shadow 0.3s;
+      &:hover {
+          background-color: #4f9bb9;
+          transform: scale(0.95);
+          box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+      }
 
 }
 
@@ -245,3 +246,112 @@ main{
       width: 7rem;
     }
   }
+
+.section-trends {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px 0px 40px 0px;
+}
+
+hr {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+  background-color: white;
+}
+
+.Trends {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.Trends h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.flex-trend {
+  display: flex;
+  gap: 1rem;
+}
+
+
+  .conteiner-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: #4f9bb9;
+    padding: 20px 0;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-links {
+    width: 25%;
+    padding: 0 15px;
+}
+
+
+.footer-links h1 {
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 25px;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.footer-links ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 15px;
+    transition: all 3.s ease;
+}
+
+.footer-links ul li a:hover {
+    padding-left: 6px;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.76); 
+}
+
+.social-link a {
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.76); 
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    transition: all .5 ease;
+}
+
+.social-link a:hover {
+    background-color: white;
+    color: rgb(0, 153, 255);
+}
+
+@media(max-width:900px) {
+    .footer-row {
+        text-align: center;
+    }
+
+    .footer-links {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .social-link {
+        margin-left: 20px;
+    }
+}

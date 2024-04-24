@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.conteiner{
+    display: flex;
+    height: 100%;
+}
+
+.cont-welcome {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://tripin.travel/wp-content/uploads/2014/05/reserva-los-colorados-la-rioja-1.jpeg'); /* Reemplaza 'ruta_de_tu_imagen.jpg' con la ruta de tu imagen de fondo */
+    background-size: cover; /* Esto hace que la imagen de fondo cubra todo el contenedor */
+    background-position: center; /* Esto centra la imagen de fondo */
+}
+
+.cont-welcome h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 255, 255, 0.5); 
+    margin-top: 20px;
+}
+
+.cont-welcome h1:hover {
+    color: rgb(12, 102, 238);
+    text-shadow: 2px 2px 4px rgb(255, 255, 255); 
+    transition: color 0.3s ease-in-out;
+}
+
+.cont-welcome button {
+    margin-top: 10%;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: white;
+    background-color: transparent;
+    font-weight: bold;
+    border-radius: 3px;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cont-welcome button:hover {
+    color: white;
+    border: 1px solid rgb(12, 102, 238) ;
+}
+
+.content-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+}
+
+.content-form h1 {
+    margin-left: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(12, 102, 238);
+    text-shadow: 2px 2px 4px rgba(0, 255, 255, 0.5);
+}
+
+.icons-form {
+    margin: 15px 0;
+}
+
+.icons-form i {
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    color: rgb(12, 102, 238);
+    margin: 0 10px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.76); 
+}
+
+.icons-form i:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.info-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-form label {
+    margin-bottom: 15px; 
+    display: flex;
+    align-items: baseline;
+}
+
+.info-form label i {
+    color: rgb(12, 102, 238);
+    margin-right: 10px;
+}
+
+.info-form label input {
+    width: 100%;
+    padding: 10px; 
+    border: none; 
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.575); /* Agregamos una sombra */
+}
+
+.info-form label input:focus {
+    outline: none; /* Elimina el contorno predeterminado */
+    border-color: rgb(12, 102, 238); /* Cambia el color del borde al enfocar */
+    background-color: rgba(12, 102, 238, 0.1); /* Cambia el color de fondo al enfocar */
+}
+
+.info-form button {
+    margin-left: 30px;
+    padding: 12px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    border: none; /* Sin borde */
+    border-radius: 3px; /* Esquinas redondeadas */
+    background-color: transparent;
+    font-weight: bold;
+    color: rgb(12, 102, 238); /* Color de texto */
+    cursor: pointer; /* Cursor de puntero */
+    transition: background-color 0.3s ease; /* Transición suave */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.575);
+}
+
+.info-form button:hover {
+    background-color: rgb(32, 120, 235);
+    color: white;
+}
+
+.confirmar-form {
+    display: flex;
+    margin-top: 5px;
+    margin-left: 6px;
+    margin-bottom: 10px;
+}
+
+.confirmar-form input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: pointer; /* Cambia el cursor al pasar sobre el checkbox */
+}
+
+.confirmar-form p {
+    color: rgb(12, 102, 238);
+    text-shadow: 2px 2px 4px rgba(0, 255, 255, 0.5);
+    font-size: 14px;
+}
+
+/* Estilo para cambiar el color del texto cuando el checkbox está marcado */
+.confirmar-form input[type="checkbox"]:checked + p {
+    color: #1f5300; /* Cambia el color del texto */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
