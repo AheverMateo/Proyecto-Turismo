@@ -138,7 +138,7 @@ a button {
 .Principal{
   text-align: center;
   color: white;
-  background:linear-gradient(to right top, #0000008a, #0000008a), url(../Proyecto-Turismo/img/seccionP/A8PHLMvr9_720x0__1.jpg);
+  background:linear-gradient(to right top, #0000008a, #0000008a), url(/img/seccionP/A8PHLMvr9_720x0__1.jpg);
   background-size: cover;
   background-position:cover;
   height: 100vh;
@@ -460,4 +460,18 @@ hr {
   .social-link {
     margin-left: 20px;
   }
+}
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: rgb(255, 249, 249);
+}
+::-webkit-scrollbar-thumb {
+  background: #6BA4DF;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background:#6BA4DF;
 }
