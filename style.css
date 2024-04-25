@@ -134,6 +134,47 @@ a button {
   font-weight: bolder;
 }
 
+/* SeccionPrincipal*/
+.Principal{
+  text-align: center;
+  color: white;
+  background:linear-gradient(to right top, #0000008a, #0000008a), url(../Proyecto-Turismo/img/seccionP/A8PHLMvr9_720x0__1.jpg);
+  background-size: cover;
+  background-position:cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.titulo_P{
+  font-family: "Rubik", sans-serif;
+  font-size: 3.5rem;
+  margin-bottom: 0.6em;
+}
+
+.subT{
+  font-family: "Rubik", sans-serif;
+  margin-bottom: 1.7em;
+  font-weight: 500;  
+}
+
+.titlebutton{
+  color: white;
+  background: rgb(33, 186, 212);
+  border:0;
+  padding: 1.2rem 2rem;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.4em;
+  border-radius: 7px;
+  transition: background-color 1s;
+&:hover{
+  background-color: lightgreen; 
+}}
+
 /* SECCIÓN LUGARES */
 * {
   padding: 0;
