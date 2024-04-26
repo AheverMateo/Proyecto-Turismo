@@ -199,3 +199,24 @@ body, html {
     background-color: rgb(32, 120, 235);
     color: white;
 }
+
+/* Estilos comunes para todos los tamaños de pantalla */
+
+
+/* Estilos para pantallas con un ancho máximo de 768px (tablet y dispositivos más pequeños) */
+@media (max-width: 768px) {
+    .conteiner {
+        flex-direction: column;
+    }
+    
+    .cont-welcome, .content-form {
+        width: 100%;
+    }
+
+    .cont-welcome button, .info-form button, .buttonConfirm {
+        margin-left: 0;
+    }
+    .content-form h1 {
+        font-size: 2rem;
+    }
+}

@@ -170,6 +170,24 @@ body, html {
     color: #1f5300; /* Cambia el color del texto */
 }
 
+/* Estilos para pantallas con un ancho máximo de 768px (tablet y dispositivos más pequeños) */
+@media (max-width: 768px) {
+    .conteiner {
+        flex-direction: column;
+    }
+
+    .cont-welcome, .content-form {
+        width: 100%;
+    }
+
+    .cont-welcome button, .info-form button, .buttonConfirm {
+        margin-left: 0;
+    }
+    .content-form h1{
+        font-size: 2.3rem;
+    }
+}
+
 
 
 
