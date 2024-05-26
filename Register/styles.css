@@ -188,8 +188,25 @@ body, html {
     }
 }
 
+.error-box{
+    color: red;
+    margin-top: 2%;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
 
+.error-checkbox{
+    color: red;
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin-bottom: 5%;
+    margin-top: -2%;
+}
 
+.checkboxUnselected {
+    border-color: red;
+    color:red;
+}
 
 
 
