@@ -1,6 +1,6 @@
 /* HEADER */
 .bg-custom {
-  background-color: #6ba4df;
+  background-color:  #46b0da;
 }
 
 .nav-size {
@@ -172,7 +172,9 @@ a button {
   border-radius: 7px;
   transition: background-color 1s;
 &:hover{
-  background-color: lightgreen; 
+  background-color: #377DCA; 
+  text-decoration: none;
+  color: black;
 }}
 
 /* SECCIÓN LUGARES */
@@ -226,11 +228,12 @@ main {
 }
 
 .tituloSection {
-  font-family: "Sofia", cursive;
+  font-family:"Rubik", sans-serif;
+  font-weight: bolder;
   font-size: 32px;
   text-align: center;
   padding: 20px;
-  color: var(--text-color);
+  color: white;
 }
 
 .nombre-lugar {
@@ -378,6 +381,8 @@ hr {
 .Trends h1 {
   text-align: center;
   margin-bottom: 30px;
+  font-weight: bolder;
+  color: white;
 }
 
 .flex-trend {
