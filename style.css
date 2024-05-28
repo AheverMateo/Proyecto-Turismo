@@ -21,7 +21,14 @@
 /*Animacion titulo*/
 .logo {
   display: flex;
+  font-weight: bolder;
 }
+
+.logoImg {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 5%;
+ }
 
 .logo span {
   opacity: 1;
@@ -91,7 +98,9 @@
 .logo:hover span:nth-child(11) {
   animation-delay: 1.1s;
 }
-
+.logo:hover span:nth-child(12) {
+  animation-delay: 1.1s;
+}
 /* Fin animacion titulo*/
 
 

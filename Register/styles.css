@@ -9,6 +9,7 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
+    background-color: white;
 }
 
 .conteiner{
@@ -32,7 +33,6 @@ body, html {
     font-size: 4rem;
     font-weight: bold;
     color: white;
-    text-shadow: 2px 2px 4px rgba(0, 255, 255, 0.5); 
     margin-top: 20px;
 }
 
@@ -74,7 +74,7 @@ body, html {
     font-size: 3rem;
     font-weight: bold;
     color: rgb(12, 102, 238);
-    text-shadow: 2px 2px 4px rgba(0, 255, 255, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .icons-form {
@@ -188,8 +188,25 @@ body, html {
     }
 }
 
+.error-box{
+    color: red;
+    margin-top: 2%;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
 
+.error-checkbox{
+    color: red;
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin-bottom: 5%;
+    margin-top: -2%;
+}
 
+.checkboxUnselected {
+    border-color: red;
+    color:red;
+}
 
 
 
